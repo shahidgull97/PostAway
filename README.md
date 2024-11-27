@@ -1,8 +1,8 @@
-🌐 #Social Media Backend App
-📖 ##Overview
+#Social Media Backend App 🌐
+##Overview 📖
 This is the backend of a Social Media Application that provides robust APIs for users to interact with features like posting content, liking and commenting on posts, sending and managing friend requests, and more. Built with scalability and performance in mind, this backend enables seamless social interactions.
 
-🚀 ##Features
+##Features 🚀
 User Authentication: Secure user login and registration with JWT.
 ####Posts:
 Create, edit, and delete posts.
@@ -24,7 +24,7 @@ Backend Framework: Node.js with Express.js
 Database: MongoDB (NoSQL database for scalability)
 Authentication: JSON Web Tokens (JWT) and bcrypt for password hashing
 
-📜 ##API Endpoints
+##API Endpoints 📜
 ###Users
 Method Endpoint Description
 POST /api/users/signup Register a new user
@@ -54,7 +54,7 @@ POST /api/friends/request Send a friend request
 PUT /api/friends/accept Accept a friend request
 DELETE /api/friends/reject Reject a friend request
 GET /api/friends/list Get a list of all friends
-🏗️ Installation and Setup
+##Installation and Setup 🏗️
 Clone the repository:
 
 bash
@@ -80,7 +80,7 @@ Copy code
 npm start
 Test the APIs: Use tools like Postman or Swagger.
 
-📈 ##Future Enhancements
+##Future Enhancements📈
 
 <ul>
 <li>Add a notification system for likes, comments, and friend requests.</li>
@@ -88,12 +88,13 @@ Test the APIs: Use tools like Postman or Swagger.
 <li>Integrate cloud storage for media uploads (e.g., AWS S3).</li>
 <li>Enable user analytics and reporting.</li>
 </ul>
-👩‍💻 ##Contributions
+##Contributions 👩‍💻 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for feature suggestions or bug fixes.
 
-📧 Contact
+Contact 📧
 For questions or collaboration, reach out to:
 
 Name: Shahid Gull
-Email: your.email@example.com
-GitHub: Your GitHub Profile
+
+<!-- Email: your.email@example.com
+GitHub: Your GitHub Profile -->
