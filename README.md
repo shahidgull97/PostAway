@@ -2,7 +2,8 @@
 ##Overview 📖
 This is the backend of a Social Media Application that provides robust APIs for users to interact with features like posting content, liking and commenting on posts, sending and managing friend requests, and more. Built with scalability and performance in mind, this backend enables seamless social interactions.
 
-##Features 🚀
+## Features 🚀
+
 User Authentication: Secure user login and registration with JWT.
 ####Posts:
 Create, edit, and delete posts.
@@ -19,13 +20,16 @@ Search and Discover:
 Search for users by username.
 Discover public posts. -->
 
-🛠️ ##Tech Stack
+## Tech Stack 🛠️
+
 Backend Framework: Node.js with Express.js
 Database: MongoDB (NoSQL database for scalability)
 Authentication: JSON Web Tokens (JWT) and bcrypt for password hashing
 
-##API Endpoints 📜
-###Users
+## API Endpoints 📜
+
+### Users
+
 Method Endpoint Description
 POST /api/users/signup Register a new user
 POST /api/users/signin Login and get a JWT token
@@ -40,21 +44,29 @@ GET /api/posts Get all posts
 POST /api/posts Create a new post
 PUT /api/posts/:id Edit a specific post
 DELETE /api/posts/:id Delete a post
-###Comments
+
+### Comments
+
 Method Endpoint Description
 POST /api/posts/:id/comments Add a comment to a post
 GET /api/posts/:id/comments Get all comments for a post
-###Likes
+
+### Likes
+
 Method Endpoint Description
 POST /api/posts/:id/like Like a post
 DELETE /api/posts/:id/unlike Unlike a post
-###Friend Requests
+
+### Friend Requests
+
 Method Endpoint Description
 POST /api/friends/request Send a friend request
 PUT /api/friends/accept Accept a friend request
 DELETE /api/friends/reject Reject a friend request
 GET /api/friends/list Get a list of all friends
-##Installation and Setup 🏗️
+
+## Installation and Setup 🏗️
+
 Clone the repository:
 
 bash
@@ -80,7 +92,7 @@ Copy code
 npm start
 Test the APIs: Use tools like Postman or Swagger.
 
-##Future Enhancements📈
+## Future Enhancements📈
 
 <ul>
 <li>Add a notification system for likes, comments, and friend requests.</li>
@@ -88,7 +100,9 @@ Test the APIs: Use tools like Postman or Swagger.
 <li>Integrate cloud storage for media uploads (e.g., AWS S3).</li>
 <li>Enable user analytics and reporting.</li>
 </ul>
-##Contributions 👩‍💻 
+
+## Contributions 👩‍💻
+
 Contributions are welcome! Please feel free to submit a pull request or open an issue for feature suggestions or bug fixes.
 
 Contact 📧
