@@ -1,17 +1,25 @@
 #Social Media Backend App 🌐
-##Overview 📖
+
+## Overview 📖
+
 This is the backend of a Social Media Application that provides robust APIs for users to interact with features like posting content, liking and commenting on posts, sending and managing friend requests, and more. Built with scalability and performance in mind, this backend enables seamless social interactions.
 
 ## Features 🚀
 
 User Authentication: Secure user login and registration with JWT.
-####Posts:
+
+#### Posts:
+
 Create, edit, and delete posts.
 View all posts or specific user posts.
-####Likes and Comments:
+
+#### Likes and Comments:
+
 Like/unlike posts.
 Add and manage comments.
-####Friend Requests:
+
+#### Friend Requests:
+
 Send, accept, and reject friend requests.
 View friend lists.
 
