@@ -30,40 +30,55 @@ Authentication: JSON Web Tokens (JWT) and bcrypt for password hashing
 
 ### Users
 
-Method Endpoint Description
-POST /api/users/signup Register a new user
-POST /api/users/signin Login and get a JWT token
-POST /api/users/logout Logout from the device
-GET /api/users/get-details/:userId Get user Details
-GET /api/users/get-all-details Get all users details
-PUT /api/users/update-details/:userId Update the details of a user
-POST /api/user/logout-all-devices Logout from all devices
+#### Method Endpoint Description
 
-Method Endpoint Description
-GET /api/posts Get all posts
-POST /api/posts Create a new post
-PUT /api/posts/:id Edit a specific post
-DELETE /api/posts/:id Delete a post
+<ul>
+<li>POST /api/users/signup Register a new user.</li>
+<li>POST /api/users/signin Login and get a JWT token.</li>
+<li>POST /api/users/logout Logout from the device.</li>
+<li>GET /api/users/get-details/:userId Get user Details.</li>
+<li>GET /api/users/get-all-details Get all users details.</li>
+<li>PUT /api/users/update-details/:userId Update the details of a user.</li>
+<li>POST /api/user/logout-all-devices Logout from all devices.</li>
+</ul>
+
+### Posts
+
+#### Method Endpoint Description
+
+<li>GET /api/posts Get all posts.</li>
+<li>POST /api/posts Create a new post.</li>
+<li>PUT /api/posts/:id Edit a specific post.</li>
+<li>DELETE /api/posts/:id Delete a post.</li>
 
 ### Comments
 
 Method Endpoint Description
-POST /api/posts/:id/comments Add a comment to a post
-GET /api/posts/:id/comments Get all comments for a post
+
+<ul>
+<li>POST /api/posts/:id/comments Add a comment to a post.</li>
+<li>GET /api/posts/:id/comments Get all comments for a post.</li>
+</ul>
 
 ### Likes
 
-Method Endpoint Description
-POST /api/posts/:id/like Like a post
-DELETE /api/posts/:id/unlike Unlike a post
+#### Method Endpoint Description
+
+<ul>
+<li>POST /api/posts/:id/like Like a post.</li>
+<li>DELETE /api/posts/:id/unlike Unlike a post.</li>
+</ul>
 
 ### Friend Requests
 
-Method Endpoint Description
-POST /api/friends/request Send a friend request
-PUT /api/friends/accept Accept a friend request
-DELETE /api/friends/reject Reject a friend request
-GET /api/friends/list Get a list of all friends
+#### Method Endpoint Description
+
+<ul>
+<li>POST /api/friends/request Send a friend request.</li>
+<li>PUT /api/friends/accept Accept a friend request.</li>
+<li>DELETE /api/friends/reject Reject a friend request.</li>
+<li>GET /api/friends/list Get a list of all friends.</li>
+</ul>
 
 ## Installation and Setup 🏗️
 
